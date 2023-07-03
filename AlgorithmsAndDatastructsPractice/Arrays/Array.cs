@@ -43,8 +43,12 @@ namespace AlgorithmsAndDatastructsPractice.Arrays
 
         public void InsertFirst(int value)
         {
-            intArray[length] = value;
-            length++;
+            for(int i = 3; i >= 0;i--)
+            {
+                //Moving all values to the right
+                intArray[i + 1] = intArray[i];
+            }
+            intArray[0] = value;
         }
 
         public void InsertLast(int value)
