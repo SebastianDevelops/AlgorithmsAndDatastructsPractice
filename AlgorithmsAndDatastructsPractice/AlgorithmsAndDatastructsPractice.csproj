@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="AbstratctDataTypes\Pokemon.cs" />
     <Compile Include="Arrays\Array.cs" />
+    <Compile Include="LinkedList\LinkedLists.cs" />
+    <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

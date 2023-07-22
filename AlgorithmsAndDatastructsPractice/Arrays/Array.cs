@@ -56,5 +56,26 @@ namespace AlgorithmsAndDatastructsPractice.Arrays
             intArray[length] = value;
             length++;
         }
+
+        public void DeleteEnd()
+        {
+            length--;
+           for(int i = 0; i < length;i++)
+            {
+                Console.WriteLine(intArray[i]);
+            }
+            Console.ReadLine();
+        }
+
+        public void DeleteStart()
+        {
+            for(int i = 1; i  < length;i++)
+            {
+                intArray[i - 1] = intArray[i];
+                Console.WriteLine(intArray[i]);
+            }
+            length--;
+            Console.ReadLine();
+        }
     }
 }

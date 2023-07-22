@@ -1,5 +1,6 @@
 ﻿using AlgorithmsAndDatastructsPractice.AbstratctDataTypes;
 using AlgorithmsAndDatastructsPractice.Arrays;
+using AlgorithmsAndDatastructsPractice.LinkedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,13 @@ namespace AlgorithmsAndDatastructsPractice
     {
         static void Main(string[] args)
         {
-            
-            Array array = new Array();
+            #region Array
+            //Array Data Structure(See above using statement)
+            //Array array = new Array();
 
-            array.DataInsert();
+            //array.DataInsert();
             //// Array inserting at last position
-            array.InsertLast(8);
+            //array.InsertLast(8);
 
             //Console.WriteLine(array.intArray);
             //Console.ReadLine();
@@ -30,6 +32,18 @@ namespace AlgorithmsAndDatastructsPractice
 
             //Inserting data anywhere in array
             //array.IndexInsert(2, 8);
+
+            //Array Deletions
+            //Delete from end of array
+            //array.DeleteEnd();
+            //array.DeleteStart();
+            #endregion
+
+            #region LinkedList
+            LinkedLists linkedList = new LinkedLists();
+
+
+            #endregion
         }
     }
 }
